@@ -1,8 +1,15 @@
 import React from 'react'
+import {Header} from "../../../components";
 
 const AllUser = () => {
     return (
-        <div>AllUser</div>
+        <main className="dashboard wrapper">
+            <Header
+                title = "Trips page"
+                description = "current user real time"
+            />
+            All User Page Content
+        </main>
     )
 }
 export default AllUser
